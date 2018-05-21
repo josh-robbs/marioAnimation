@@ -1,0 +1,66 @@
+
+.border {
+    border: .1px solid black;
+}
+
+/*
+##############
+### LAYOUT ###
+##############
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.columnDirection {
+    flex-direction: column;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.alignItemCenter {
+    align-items: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.flex {
+    flex: 1;
+}
+
+/*
+##############
+# TYPOGRAPHY #
+##############
+*/
+
+
+/*
+##############
+### PIXELS ###
+##############
+*/
+
+.pixel-block {
+    width: 2vw;
+    height: 2vw;
+}
+
+.canvas {
+    width: 32vw;
+    flex-wrap: wrap;
+    margin: 20px;
+}
